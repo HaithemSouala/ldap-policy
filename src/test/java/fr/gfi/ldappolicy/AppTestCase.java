@@ -1,3 +1,4 @@
+
 package fr.gfi.ldappolicy;
 
 import javax.annotation.Resource;
@@ -11,10 +12,7 @@ import fr.gfi.ldappolicy.AppLogger;
 import fr.gfi.ldappolicy.UserManager;
 
 import static org.junit.Assert.*;
-/**
- *
- * @author hsouala
- */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations="classpath:app-context.xml")
 public abstract class AppTestCase {
