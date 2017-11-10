@@ -52,6 +52,14 @@ public interface UserManager {
     void setPolicy(String username, String policy);
     
     /**
+     * Sets a custom password policy.
+     * 
+     * @param username
+     * @param policy 
+     */
+    void unlock(String username);
+    
+    /**
      * Obtains the user password policy.
      * 
      * @param username

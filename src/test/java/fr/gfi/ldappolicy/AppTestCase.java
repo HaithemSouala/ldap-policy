@@ -1,4 +1,4 @@
-package org.zezutom.ldappolicy;
+package fr.gfi.ldappolicy;
 
 import javax.annotation.Resource;
 import org.junit.After;
@@ -13,7 +13,7 @@ import fr.gfi.ldappolicy.UserManager;
 import static org.junit.Assert.*;
 /**
  *
- * @author tomasz
+ * @author hsouala
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations="classpath:app-context.xml")

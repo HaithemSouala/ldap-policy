@@ -18,6 +18,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.ldap.userdetails.InetOrgPerson;
 import org.springframework.security.ldap.userdetails.LdapUserDetailsManager;
 import org.springframework.stereotype.Service;
+import org.springframework.test.annotation.NotTransactional;
 
 /**
  *
@@ -159,5 +160,11 @@ public class LdapUserManager implements UserManager {
     private String getUid(String username) {
         return String.format(config.getUidFormat(), username);
     }
+
+	@Override
+	public void unlock(String username) {
+		// TODO Auto-generated method stub
+		
+	}
        
 }

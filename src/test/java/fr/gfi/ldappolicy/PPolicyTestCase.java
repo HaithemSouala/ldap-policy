@@ -1,4 +1,4 @@
-package org.zezutom.ldappolicy;
+package fr.gfi.ldappolicy;
 
 import org.junit.Before;
 import org.junit.Test;
